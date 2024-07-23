@@ -21,6 +21,7 @@
     "packages/*"
   ],
   "dependencies": {
-    "@nestjs/cli": "^10.4.2"
+    "@nestjs/cli": "^10.4.2",
+    "@react-native/metro-config": "^0.74.85"
   }
 }
