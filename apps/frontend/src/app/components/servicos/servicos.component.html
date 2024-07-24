@@ -1,0 +1,23 @@
+<!-- services.component.html -->
+<div class="services-container">
+  <div class="row justify-content-center text-start">
+    <div class="col-12 col-md-6 col-lg-4 mb-3" *ngFor="let service of services">
+      <div class="card d-flex align-items-between">
+        <div class="row g-0 w-100">
+          <div class="col-3">
+            <img [src]="service.imagemURL" alt="{{ service.nome }}" class="img-fluid rounded-start">
+          </div>
+          <div class="col-9">
+            <div class="card-body">
+              <h5 class="card-title">{{ service.nome }}</h5>
+              <p class="card-text">{{ service.descricao }}</p>
+              <p class="card-text">
+                <small class="text-muted">{{ service.preco | currency }}</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

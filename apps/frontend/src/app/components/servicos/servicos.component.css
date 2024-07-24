@@ -1,0 +1,35 @@
+/* services.component.css */
+.services-container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  min-height: 175px;
+  overflow: hidden;
+}
+
+.img-fluid {
+  min-height: 175px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  margin: 5px 0;
+  color: #555;
+}
+
+.text-muted {
+  font-weight: bold;
+  color: #333;
+}

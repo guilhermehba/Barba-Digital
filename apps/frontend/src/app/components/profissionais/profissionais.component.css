@@ -1,0 +1,13 @@
+.contentProfissionais {
+  background-image: url('../../../assets/public/banners/profissionais.webp'); /* Ajuste o caminho da imagem conforme necessário */
+  background-size: auto;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  color: white;
+  text-align: center;
+}

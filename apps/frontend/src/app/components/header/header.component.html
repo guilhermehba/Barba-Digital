@@ -1,1 +1,21 @@
-<p>header works!</p>
+<header class="w-100 m-0 p-2 d-flex align-items-center justify-content-between bg-black">
+  <div class="d-flex align-items-center">
+    <img src="../../../assets/public/logo.png" alt="logomarca da aplicação" class="col-10" style="width: 50px; background-color: hsl(240, 10%, 3.9%)">
+    <div class="col-12 d-flex row">
+      <span class="text-2xl text-zinc-300 font-bold mb-25 col-12">Barba</span>
+      <span class="text-2xl text-zinc-300 font-bold mb-25 col-12">Digital</span>
+    </div>
+  </div>
+  <div>
+    <img src="../../../assets/public/avatar.png" alt="" style="width: 50px; background-color: hsl(240, 10%, 3.9%); border-radius: 100%; border: 1px solid white;">
+    <div ngbDropdown class="d-inline-block">
+      <button type="button" class="btn btn-outline" id="dropdownBasic1" style="color: white !important;" ngbDropdownToggle>
+        Nome do Usuario logado
+      </button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button ngbDropdownItem>Meu Usuário</button>
+        <button ngbDropdownItem>Logout</button>
+      </div>
+    </div>
+  </div>
+</header>

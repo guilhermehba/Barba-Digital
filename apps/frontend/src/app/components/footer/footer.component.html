@@ -1,1 +1,38 @@
-<p>footer works!</p>
+<!-- footer.component.html -->
+<footer class="block items-center bg-black">
+  <div class="container block flex-col gap-7 py-10 row col-12">
+    <div class="flex flex-col md:flex-row items-center md:items-start md:justify-between">
+      <div class="d-flex align-items-center col-4">
+        <img src="../../../assets/public/logo.png" alt="logomarca da aplicação" class="col-10" style="width: 60px; background-color: hsl(240, 10%, 3.9%)">
+        <div class="col-12 d-flex row">
+          <span class="text-2xl text-zinc-300 font-bold mb-25 col-12">Barba</span>
+          <span class="text-2xl text-zinc-300 font-bold mb-25 col-12">Digital</span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-1 items-center md:items-start row col-5">
+        <span class="text-2xl text-zinc-300 font-bold mb-25 col-12">Sobre</span>
+        <span class="text-sm text-zinc-400 col-12">Nossa História</span>
+        <span class="text-sm text-zinc-400 col-12">Política de Privacidade</span>
+        <span class="text-sm text-zinc-400 col-12">Termos de Uso</span>
+      </div>
+      <div class="flex flex-col gap-1 items-center md:items-start row col-5">
+        <span class="text-2xl text-zinc-300 font-bold mb-25 col-12">Contato</span>
+        <span class="text-sm text-zinc-400">guilhermemalka6@gmail.com</span>
+        <div class="flex items-center gap-2 text-sm text-zinc-400">
+          <span>Whatsapp: (63) 99270-6543</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col md:flex-row justify-between items-center col-3">
+    <div class="flex flex-col md:flex-row items-center gap-1.5 text-zinc-400 text-sm col-12">
+      <div class="flex gap-1.5">
+        <span>Feito com</span>
+        <span>🪓</span>
+        <span>em {{ currentYear }}</span>
+      </div>
+      <span class="hidden md:inline-block">-</span>
+      <span>Todos os direitos reservados</span>
+    </div>
+  </div>
+</footer>
