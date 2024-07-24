@@ -9,6 +9,7 @@ import { MaterialModule } from '../components/modules/material/material.module';
 import { AgendarComponent } from '../components/agendar/agendar.component';
 import { ServicosComponent } from '../components/servicos/servicos.component';
 import { ProfissionaisComponent } from '../components/profissionais/profissionais.component';
+import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ProfissionaisComponent } from '../components/profissionais/profissionai
   imports: [
     CommonModule,
     HomepageRoutingModule,
-    MaterialModule
+    MaterialModule,
+    NgbRatingModule
   ]
 })
 export class HomepageModule { }

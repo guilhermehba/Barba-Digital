@@ -7,7 +7,7 @@
   display: block;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   color: black;
   text-align: center;
 }
@@ -20,7 +20,7 @@
   display: block;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   color: white;
   text-align: center;
 }

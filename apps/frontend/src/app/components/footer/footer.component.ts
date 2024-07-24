@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 currentYear:number = new Date().getFullYear();
-
+email:string = "guilhermemalka6@gmail.com";
 
 
   constructor() { }

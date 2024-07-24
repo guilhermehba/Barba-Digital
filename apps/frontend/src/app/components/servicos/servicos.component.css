@@ -1,6 +1,9 @@
 /* services.component.css */
 .services-container {
-  padding: 20px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card {
@@ -27,6 +30,7 @@
 .card-text {
   margin: 5px 0;
   color: #555;
+  font-size: 14px;
 }
 
 .text-muted {

@@ -1,0 +1,15 @@
+<div class="services-container">
+  <div class="row justify-content-center text-start p-5 m-0">
+    <div class="col-12 col-md-6 col-lg-4 mb-3 justify-content-center align-items-center row" *ngFor="let item of profissionais">
+      <div class="card">
+        <img class="card-img-top" src="../../../assets/public/profissionais/profissional-{{item.id}}.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h2>{{item.nome}}</h2>
+          <p class="card-text">{{item.descricao}}</p>
+          <ngb-rating style="font-size: 20px; color: black;" [rate]="item.avaliacao"/>
+          <span class="text-muted">{{item.avaliacao}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
