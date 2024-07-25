@@ -7,7 +7,7 @@
 }
 
 .card {
-  background-color: #f0f0f0;
+  background-color: #555 !important;
   border-radius: 10px;
   min-height: 175px;
   overflow: hidden;
@@ -20,20 +20,22 @@
 
 .card-body {
   padding: 10px;
+
 }
 
 .card-title {
   margin: 0;
   font-size: 1.25rem;
+  color: aliceblue;
 }
 
 .card-text {
   margin: 5px 0;
-  color: #555;
+  color: aliceblue;
   font-size: 14px;
 }
 
 .text-muted {
   font-weight: bold;
-  color: #333;
+  color:aliceblue !important
 }

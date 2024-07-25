@@ -1,11 +1,14 @@
 .card {
-  max-width: 400px;
-  height: 550px;
+  width: 250px !important;
+  display: flexbox;
   padding: 0;
+  background-color: #555 !important;
+  color: aliceblue;
+  border-radius: 20px;
 
 }
 .card-img-top{
-  max-width: 400px;
-  max-height: 300px;
-  margin: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
 }
